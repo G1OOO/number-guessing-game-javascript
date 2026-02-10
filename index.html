@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <p class="instruction">I am think of a number betwin 1-100.</p>
+        <p class="sub-instruction">can you guess it?</p>
+
+        <input type="number" id="userInput" placeholder="Num">
+
+        <button id="guessBtn">GUESS</button>
+
+        <div class="stats">
+            <p>No. og guesses : <span id="guessCount">0</span></p>
+            <p>Guessed number are: <span id="history">None</span></p>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
